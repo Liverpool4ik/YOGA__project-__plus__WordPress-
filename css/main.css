@@ -1,0 +1,53 @@
+@import url("global.css");
+
+.header {
+}
+.header-top {
+	padding: 18px 0;
+	/* width: 100%; */
+	background-color: #33344f;
+	color: #fff;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header-top-row {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.header-socials {
+	display: flex;
+	column-gap: 22px;
+}
+
+.header-socials-img {
+	display: block;
+}
+.header-info {
+	display: flex;
+	margin-left: auto;
+	column-gap: 25px;
+}
+
+.header-info-item {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+.header-info-icon img {
+	display: block;
+}
+
+.header-socials-link,
+.header-info-item {
+	transition: 0.4s ease;
+}
+
+.header-socials-link:hover,
+.header-info-item:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
