@@ -44,8 +44,7 @@
 }
 
 /* Global Styles START */
-:root {
-}
+
 * {
 	box-sizing: border-box;
 }
@@ -64,6 +63,7 @@ body {
 	min-width: 320px;
 	position: relative;
 	font-weight: 400;
+	padding-bottom: 250px;
 }
 
 input,
@@ -91,6 +91,7 @@ div {
 }
 ul {
 	margin: 0;
+	padding: 0;
 }
 a {
 	text-decoration: none;
